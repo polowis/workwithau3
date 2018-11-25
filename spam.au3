@@ -1,5 +1,5 @@
 #include<ie.au3>
-Global $web =  _IECreate('https://m.facebook.com/messages/read/?tid=1424327650959404&entrypoint=web%3Atrigger%3Ajewel_see_all_messages')
+Global $web =  _IECreate('LINK AND ID GOES HERE')
 $spam = _IEGetObjByName($web, 'body')
 $nut = _IEGetObjByName($web, 'send')
 $info = InputBox(0, 'what do you want to say', '')
