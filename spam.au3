@@ -1,4 +1,7 @@
 #include<ie.au3>
+
+;spamming message on facebook
+
 Global $web =  _IECreate('LINK AND ID GOES HERE')
 $spam = _IEGetObjByName($web, 'body')
 $nut = _IEGetObjByName($web, 'send')
